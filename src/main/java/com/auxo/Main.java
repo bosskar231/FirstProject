@@ -63,6 +63,7 @@ public class Main {
 
     public static void main(String[] args) {
         Main main=new Main();
+        Search search=new Search();
         List<Questions> questions=new ArrayList<Questions>();
         Reader reader=new Reader();
         System.out.println("enter the path to get the details");
@@ -85,6 +86,11 @@ public class Main {
         }
         System.out.println("Now printing phase");
         main.print(questions);
+
+
+        System.out.println("Now enter the String you want to find the question no");
+        String string=scanner.nextLine();
+        System.out.println("Your question matches this no :"+search.searchQuestion(questions,string));
 
 
     }

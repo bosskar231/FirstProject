@@ -18,6 +18,11 @@
             <artifactId>poi-ooxml</artifactId>
             <version>3.9</version>
         </dependency>
+        <dependency>
+            <groupId>me.xdrop</groupId>
+            <artifactId>fuzzywuzzy</artifactId>
+            <version>1.2.0</version>
+        </dependency>
     </dependencies>
 
 </project>
